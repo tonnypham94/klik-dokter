@@ -1,0 +1,25 @@
+.product-page {
+  padding: 1rem;
+
+  h1 {
+    text-align: center;
+  }
+
+  &__welcome {
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    span {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .register-login-button {
+    text-align: right;
+
+    .register-button {
+      margin-right: 0.5rem;
+    }
+  }
+}
